@@ -1,0 +1,96 @@
+body {
+  margin: 0;
+  padding: 0;
+}
+
+#game-box {
+  width: 77%;
+}
+
+#game-box h1 {
+  text-align: center;
+}
+
+#drop-area {
+  background-color: #414141;
+  height: 740px;
+  width: 800px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+#squares-container {
+  height: 740px;
+  position: relative;
+  width: 100%;
+}
+
+#side-bar {
+  width: 22%;
+  background-color: #cccccc;
+}
+
+#game-box, #side-bar {
+  float: left;
+  min-height: 900px;
+}
+
+.space {
+  height: 30px;
+}
+
+#side-bar h2 {
+  text-align: center;
+  margin: 8px;
+}
+
+#check-button {
+  margin: 0 auto;
+  width: 72px;
+}
+
+#squares1-wrap {
+  margin: 0 auto;
+  width: 18px;
+}
+#squares2-wrap {
+  margin: 0 auto;
+  width: 36px;
+}
+#squares5-wrap {
+  margin: 0 auto;
+  width: 90px;
+}
+#squares10-wrap, #squares100-wrap {
+  margin: 0 auto;
+  width: 180px;
+}
+
+.block {
+  display: inline-block;
+  width: 16px;
+  height: 16px;
+  border: 1px solid black;
+  background-color: red;
+}
+
+.block-col {
+  display: inline-block;
+}
+
+.block-col-block {
+  width: 16px;
+  height: 16px;
+  border: 1px solid black;
+  background-color: red;
+}
+
+.game-box-squares1,
+  .game-box-squares2,
+  .game-box-squares5,
+  .game-box-squares10,
+  .game-box-squares100 {
+    position: absolute;
+    bottom: 0;
+    display: inline-block;
+ }
